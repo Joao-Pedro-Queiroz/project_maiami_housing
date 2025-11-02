@@ -1,0 +1,47 @@
+
+
+flag de amenidade
+
+amenity_log1p
+
+avno60plus usar tb
+
+TOT_LVG_AREA tem q logar
+
+LND_SQFOOT tem q logar
+
+structure_quality tomar cuidado, talvez tirar qualidade 3 e o crescimento é nao linear
+
+polinomial em age cpa 
+OCEAN_DIST cpa que fazer por rankings 
+
+WATER_DIST meio fodasse, cpa melhor tirar
+
+Só adicionar a perto do CENTRO sem subcentro
+
+
+Uma bosta das rodovia, nao usarei
+
+
+FEATURE ENGENIEERING:
+
+SALES_PRC -> log
+
+LND_SQFOOT -> log
+
+TOT_LVG_AREA -> log
+
+SPEC_FEAT_VAL -> logar 
+
+OCEAN_DIST -> por ranking melhor cpa
+
+CNTR_DIST -> sussa
+
+age -> polinomial features ajuda
+
+avno60plus -> sussa
+
+mont_sold -> flag 
+
+structure_quality -> tirar catregoria 
+3 e transformar em dummy já que a mudanca nao é linear
