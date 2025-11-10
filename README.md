@@ -27,10 +27,10 @@ Abra `project.ipynb` e execute as células na ordem. O notebook localizará auto
 
 ## Organização dos dados
 - O arquivo `.csv` do Miami Housing deve estar em `data/`.
-- Artefatos tratados serão salvos em `data/processed/` (ex.: `miami_clean.parquet`).
+- Artefatos tratados serão salvos em `data/` (ex.: `miami_clean.csv`).
 
 ## Fluxo analítico (alto nível)
 1. **Descoberta**: leitura do CSV, *quick dict* de colunas (tipos, nulos, distintos).
 2. **Tidy**: padronização de nomes, remoção de duplicados por id, criação de variáveis derivadas (ex.: `log_price`, `price_per_sqft`).
 3. **EDA**: visualizações com `plotnine` (distribuições e relações chave) acompanhadas de interpretações.
-4. **Preparação para modelagem**: exporta `data/processed/miami_clean.parquet` para uso em modelos.
+4. **Preparação para modelagem**: exporta `data/miami_clean.csv` para uso em modelos.
